@@ -9,3 +9,38 @@ Operator	Keterangan	            Contoh
 %	        Sisa pembagian (Modulo)	x % y
 +	        Penjumlahan	            x + y
 –	        Pengurangan	            x – y
+
+contoh :
+
+#include <iostream>
+using namespace std;
+
+int main(){
+
+    int a, b;
+
+    cout << "Masukkan nilai A : "; cin >> a;
+    cout << "Masukkan nilai B : "; cin >> b;
+	
+	cout << "\n";
+	cout << "Output :\n";
+    cout << "A + B = " << a + b << endl;
+    cout << "A - B = " << a - b << endl;
+    cout << "A * B = " << a * b << endl;
+    cout << "A / B = " << a / b << endl;
+    cout << "A % B = " << a % b << endl;
+
+    return 0;
+}
+
+
+Output :
+A + B = 2258
+A - B = 1784
+A * B = 478977
+A / B = 8
+A % B = 125
+
+--------------------------------
+Process exited after 5.336 seconds with return value 0
+Press any key to continue . . .
