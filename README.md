@@ -1,2 +1,1 @@
-# Operator-Pada-C-
-Jenis-jenis Operator Pada Bahasa Pemrograman C++
+Beberapa jenis operator dalam bahasa pemrograman C++ adalah : Operator Aritmatika, Operator Increment dan Decrement, Operator Perbandingan/Relasional, Operator Logika/ Boolean, Operator Bitwise, Operator Assignment.Penugasan, dan Operator Lainnya.
