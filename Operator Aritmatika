@@ -1,0 +1,11 @@
+Merupakan operator yang melakukan operasi matematika/perhitungan. Misalnya kali, bagi, tambah dan kurang. 
+Selain keempat operasi tersebut, C++ juga memiliki operasi modulo division (%) yang dipakai untuk mencari sisa hasil bagi.
+
+berikut adalah tabel operator aritmatika :
+
+Operator	Keterangan	            Contoh
+*	        Perkalian	              x * y
+/	        Pembagian	              x / y
+%	        Sisa pembagian (Modulo)	x % y
++	        Penjumlahan	            x + y
+–	        Pengurangan	            x – y
