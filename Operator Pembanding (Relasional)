@@ -1,0 +1,76 @@
+6.2.4	Operator Pembanding / Relasional
+Merupakan operator yang digunakan untuk membandingkan dua buah nilai pada suatu operasi. Hasil dari operator perbandingan 
+bernilai true atau false.
+Tabel berikut memperlihatkan hasil dari operator perbandingan dalam bahasa C++ :
+
+Operator	Keterangan	              Contoh
+==	      Sama dengan	              (a==a) atau (a==5) atau (5==5)
+!=	      tidak sama dengan	        (a!=a) atau (a!=5) atau (5!=5)
+<	        kurang dari	              (a<a) atau (a<5) atau (5<5)
+>	        lebih besar dari	        (a>a) atau (a>5) atau (5>5)
+<=	      kurang dari sama dengan	  (a<=a) atau (a<=5) atau (5<=5)
+>=	      lebih dari sama dengan	  (a>=a) atau (a>=5) atau (5>=5)
+
+Contoh koding :
+#include <iostream>
+using namespace std;
+
+int main()  {
+    
+	int X = 123, Y = 2021;
+    	bool hasil;
+
+	cout << "Operator Perbandingan\n" ;
+	cout << "---------------------\n" ;
+		
+	cout << "\n" ;
+	cout << "Diketahui : \n" ;
+	cout << "X = " << X << endl;
+	cout << "Y = " << Y << endl;
+	
+	cout << "\nMaka" ;
+	cout << "\n" ;
+    hasil = X > Y;
+    cout << "X > Y = " << hasil << endl;
+
+    hasil = X < Y;
+    cout << "X < Y = " << hasil << endl;
+
+    hasil = X >= Y;
+    cout << "X >= Y = " << hasil << endl;
+
+    hasil = X <= Y;
+    cout << "X <= Y = " << hasil << endl;
+
+    hasil = X == Y;
+    cout << "X == Y = " << hasil << endl;
+
+    hasil = X != Y;
+    cout << "X != Y = " << hasil << endl;
+    
+    cout << "\n" ;
+	cout << "Keterangan : 0 = false dan 1 = true\n" ;
+
+    return 0;
+}
+Output :
+Operator Perbandingan
+---------------------
+
+Diketahui :
+X = 123
+Y = 2021
+
+Maka
+X > Y = 0
+X < Y = 1
+X >= Y = 0
+X <= Y = 1
+X == Y = 0
+X != Y = 1
+
+Keterangan : 0 = false dan 1 = true
+
+--------------------------------
+Process exited after 0.3126 seconds with return value 0
+Press any key to continue . . .
