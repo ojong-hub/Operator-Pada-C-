@@ -1,0 +1,103 @@
+Operator Bitwise XOR (^)C.	
+Merupakan suatu operator yang digunakan untuk membandingkan bit pada dua buah operand.  
+Operator ini akan menghasilkan nilai 1 (benar) dan nilai 0 (salah).
+Berikut adalah tabel perbandingan operator bitwise XOR :
+
+Bit operand 1	  Bit operand 2	  Hasil operasi XOR
+      1	              1	                0
+      1	              0	                1
+      0	              1	                1
+      0	              0	                0
+
+Contoh :
+00001010 = 10
+00001011 = 11
+---------------------------------XOR
+00000001 = 1
+Format penulisan operator XOR adalah sebagai berikut :
+Operand_1 ^ operand_2;
+
+
+Contoh koding :
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int hasil, x, y;
+
+	cout << "Operator Bitwise XOR ( ^ )\n" ;
+	cout << "--------------------------\n" ;
+	cout << "\n" ;
+    
+	cout << "Masukkan nilai X : ";
+    cin >> x;
+    cout << "Masukkan nilai Y : ";
+    cin >> y;
+    cout << endl;
+
+    hasil = x ^ y;
+    cout << "\n" ;
+	cout << "X ^ Y = " << hasil << endl;
+
+return 0;
+}
+Output :
+Operator Bitwise XOR ( ^ )
+--------------------------
+
+Masukkan nilai X : 21
+Masukkan nilai Y : 210
+
+X ^ Y = 199
+--------------------------------
+
+Process exited after 5.466 seconds with return value 0
+Press any key to continue . . .
+
+D.	Opertor Bitwise NOT ( ~ )
+Merupakan operator yang digunakan untuk membalikan nilai suatu operand berdasarkan bilangan binernya. Berikut adalah tabel operasi operator NOT :
+
+Tabel 6.10   Operator Bitwise NOT
+Bit Operand	Hasil
+1	0
+0	1
+
+Contoh :
+00001010 = 10
+menjadi
+11110101 = 245 = -11 (2's complement)
+Format penulisan operator bitwise NOT adalah sebagai berikut :
+~ operand;
+Contoh koding :
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int hasil, x, y;
+
+	cout << "Operator Bitwise NOT ( ~ )\n" ;
+	cout << "--------------------------\n" ;
+	cout << "\n" ;
+    
+	cout << "Masukkan nilai X : "; cin >> x;
+    cout << endl;
+
+    hasil = ~x;
+    cout << "\n" ;
+	cout << "~X = " << hasil << endl;
+
+return 0;
+}
+Output :
+Operator Bitwise NOT ( ~ )
+--------------------------
+
+Masukkan nilai X : 14
+
+~X = -15
+
+--------------------------------
+Process exited after 2.389 seconds with return value 0
+Press any key to continue . . .
