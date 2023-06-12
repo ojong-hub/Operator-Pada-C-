@@ -1,0 +1,41 @@
+Operator Bitwise Shift Right ( >> )
+Merupakan operator yang digunakan untuk menggeser nilai suatu operand ke kanan berdasarkan bilangan binernya.
+Contoh :
+00001010 = 10
+jika digeser ke kanan sebanyak 1 bit maka :
+00000101 = 5
+Format penulisan operator shift right :
+nilai >> banyaknya_pergeseran_bit;
+
+
+Contoh koding :
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int hasil, x;
+
+	cout << "Operator Bitwise Right Shift ( >> )\n" ;
+	cout << "-----------------------------------\n" ;
+	cout << "\n" ;
+	   
+cout << "Masukkan nilai A : "; cin >> x;
+    cout << endl;
+
+    hasil = x >> 3;
+    cout << "A >> 3 = " << hasil << endl;
+
+return 0;
+}
+Output :
+Operator Bitwise Right Shift ( >> )
+-----------------------------------
+
+Masukkan nilai A : 51
+
+A >> 3 = 6
+
+--------------------------------
+Process exited after 3.364 seconds with return value 0
+Press any key to continue . . .
