@@ -1,0 +1,62 @@
+Operator Logika
+Merupakan operator yang digunakan untuk memeriksa kesamaan nilai dari dua data atau lebih pada suatu operasi. 
+Hasil operasi adalah mengembalikan nilai dari bilangan Boolean.
+
+Operator	Keterangan	                                                                                                    Contoh
+&&	      Disebut Logical AND operator. Jika kedua operand tidak memiliki nilai yang sama maka akan bernilai false	      A && B = false
+||	      Disebut Logical OR operator. Jika keduanya atau salah satu data bernilai true maka akan menghasilkan nilai true	A || B = true
+!	        Disebut Logical NOT operator. Untuk mengembalikan nilai, jika A adalah true maka akan bernilai false	          !(A && B) = true
+
+Contoh koding :
+#include <iostream>
+
+using namespace std;
+
+int main()  {
+    
+	int X = 1; 
+    int Y = 0; 
+    bool hasil;
+
+	cout << "Operator Logika\n" ;
+	cout << "---------------\n" ;
+		
+	cout << "\n" ;
+	cout << "Diketahui : \n" ;
+	cout << "X =  "<< X << endl;
+	cout << "Y =  "<< Y << endl;
+	
+    cout << "\nMaka" ;
+	cout << "\n" ;
+
+    hasil = X && Y;
+    cout << "X && Y = " << hasil << endl;
+
+    hasil = X || Y;
+    cout << "X || Y = " << hasil << endl;
+
+    cout << "!X = " << !X << endl;
+    
+    cout << "\n";
+	cout << "Keterangan : 1 = true dan 0 = false\n"; 
+
+    return 0;
+}
+Output :
+Operator Logika
+---------------
+
+Diketahui :
+X =  1
+Y =  0
+
+Maka
+X && Y = 0
+X || Y = 1
+!X = 0
+
+Keterangan : 1 = true dan 0 = false
+
+--------------------------------
+Process exited after 0.2111 seconds with return value 0
+Press any key to continue . . .
