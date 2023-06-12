@@ -1,0 +1,57 @@
+Operator Bitwise OR
+Merupakan sebuah operator yang digunakan untuk membandingkan bit pada dua buah operand. Operator tersebut 
+akan menghasilkan nilai 1 (benar) dan 0 (salah). Berikut adalah tabel hasil operasi operator bitwise OR :
+
+Bit operand 1	  Bit operand 2	    Hasil operasi OR
+    1	              1	                  1
+    1	              0	                  1
+    0	              1	                  1
+    0	              0	                  0
+
+Contoh :
+00001010 = 10
+00001011 = 11
+---------------------------------OR
+00001011 = 11
+Format penulisan operator bitwise OR adalah sebagai berikut :
+Operand_1 | operand_2;
+
+
+Contoh koding :
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int hasil, x, y;
+
+	cout << "Operator Bitwise OR ( |)\n" ;
+	cout << "------------------------\n" ;
+	cout << "\n" ;
+    
+	cout << "Masukkan nilai X : ";
+    cin >> x;
+    cout << "Masukkan nilai Y : ";
+    cin >> y;
+    cout << endl;
+
+
+    hasil = x | y;
+    cout << "\n" ;
+	cout << "X | Y = " << hasil << endl;
+
+return 0;
+}
+Output :
+Operator Bitwise OR ( |)
+------------------------
+
+Masukkan nilai X : 20
+Masukkan nilai Y : 200
+
+
+X | Y = 220
+
+--------------------------------
+Process exited after 4.926 seconds with return value 0
+Press any key to continue . . .
