@@ -1,0 +1,40 @@
+Operator Bitwise Shift Left ( << )
+Merupakan yang digunakan untuk menggeser nilai suatu operand ke kiri berdasarkan bilangan binernya.
+Contoh :
+00001010 = 10
+jika digeser ke kiri sebanyak 1 bit maka :
+00010100 = 20
+Format penulisan operator bitwise shift left adalah sebagai berikut :
+nilai << banyaknya_pergeseran_bit;
+
+Contoh koding :
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    int hasil, x;
+
+	cout << "Operator Bitwise Shift Left ( << )\n" ;
+	cout << "----------------------------------\n" ;
+	cout << "\n" ;
+    
+	cout << "Masukkan nilai X : "; cin >> x;
+    	cout << endl;
+
+    hasil = x << 1;
+    cout << "X << 1 = " << hasil << endl;
+
+return 0;
+}
+Output :
+Operator Bitwise Shift Left ( << )
+----------------------------------
+
+Masukkan nilai X : 27
+
+X << 1 = 54
+
+--------------------------------
+Process exited after 2.976 seconds with return value 0
+Press any key to continue . . .
