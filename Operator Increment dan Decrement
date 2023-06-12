@@ -1,0 +1,60 @@
+6.2.3	Operator Increment dan Decrement
+Operator Increment ( ++ ) dan Decrement (-- ) merupakan operator untuk melakukan suatu proses penambahan dan 
+pengurangan data sebanyak 1. Untuk lebih jelasnya, dapat dilihat pada tabel di bawah ini.
+
+Operator	      Contoh	Keterangan
+Pre-increment	  ++a	    Menambah a sebanyak 1 angka, lalu menampilkan hasilnya
+Post-increment	a++	    Menampilkan nilai a, lalu menambah a sebanyak 1 angka
+Pre-decrement	  --a	    Mengurangi a sebanyak 1 angka, lalu menampilkan hasilnya
+Post-decrement	a--	    Menampilkan nilai a, lalu mengurangi a sebanyak 1 angka
+
+contoh :
+
+#include <iostream>
+
+using namespace std;
+
+int main()  {
+    int X = 123;
+
+    cout << "Operator Increment - Decrement\n" ;
+	cout << "------------------------------\n" ;
+		
+	cout << "\n" ;
+	cout << "Diketahui : \n" ;
+	cout << "X = " << X << endl;
+	
+	cout << "\nMaka" ;
+	cout << "\n" ;
+	
+	X++;
+    cout << "X++ = " << X << endl;
+
+    ++X;
+    cout << "++X = " << X << endl;
+
+    X--;
+    cout << "X-- = " << X << endl;
+
+    --X;
+    cout << "--X = " << X << endl;
+
+    return 0;
+}
+Output :
+Operator Increment - Decrement
+------------------------------
+
+Diketahui :
+X = 123
+
+Maka
+X++ = 124
+++X = 125
+X-- = 124
+--X = 123
+
+--------------------------------
+Process exited after 0.1834 seconds with return value 0
+Press any key to continue . . .
+
