@@ -1,0 +1,73 @@
+Operator Penugasan (Assignment)
+Merupakan operator yang digunakan untuk mengisi nilai ke dalam suatu variabel. Pada C++, dimungkinkan juga untuk memanipulasi data 
+pada operator assignment gabungan, seperti ” += “, ” -= “, dan lain-lain. Untuk lebih jelasnya, dapat dilihat pada tabel dibawah ini.
+
+Operator	Keterangan	              Contoh
++=	      Penambahan	              X += Y
+-=	      Pengurangan	              X -= Y
+*=	      Perkalian	                X *= Y
+/=	      Pembagian	                X /= Y
+%=	      Sisa Pembagian (Modulo)	  X %= Y
+>>=	      Pergeseran bit ke kiri	  X >>= Y
+<<=	      Pergeseran bit ke kanan	  X <<= Y
+&=	      Bitwise DAN	              X &= Y
+^=	      Bitwise OR Eksklusif	    X ^= Y
+|=	      Bitwise OR Inklusif	      X |= Y
+
+Contoh koding :
+#include <iostream>
+
+using namespace std;
+
+int main(){
+
+    int X, Y;
+
+    X = 137;
+    Y = 2021;
+
+	cout << "Operator Assignment\n" ;
+	cout << "-------------------\n" ;
+		
+	cout << "\n" ;
+	cout << "Diketahui : \n" ;
+	cout << "X = " << X << endl;
+	cout << "Y = " << Y << endl;
+	
+	cout << "\nMaka" ;
+	cout << "\n" ;
+    Y += X; 
+    cout << "Y += X  = " << Y << endl;
+
+    Y -= X; 
+    cout << "Y -= X  = " << Y << endl;
+
+    Y *= X;  
+    cout << "Y *= X  = " << Y << endl;
+
+    Y /= X; 
+    cout << "Y /= X  = " << Y << endl;
+
+    Y %= X; 
+    cout << "Y %= X   =" << Y << endl;
+
+    return 0;
+}
+Output :
+Operator Assignment
+-------------------
+
+Diketahui :
+X = 137
+Y = 2021
+
+Maka
+Y += X  = 2158
+Y -= X  = 2021
+Y *= X  = 276877
+Y /= X  = 2021
+Y %= X   =103
+
+--------------------------------
+Process exited after 0.2202 seconds with return value 0
+Press any key to continue . . .
